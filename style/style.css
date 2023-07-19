@@ -333,13 +333,22 @@ line-height: normal;
     display: none;
 }
 @media screen and (max-width:576px) {
-    .Online_Games .images .banner{
+    .Online_Games, .images, .banner,
+    .Online_Games ,
+   .play_Instantly,
+   .fourth_section
+    
+    {
         flex-direction: column;
-        padding:70px;
+        
+
 
     }
     .last{
         padding: 70px;
+    }
+    .Online_Games{
+        flex-wrap: wrap;
     }
     
    
