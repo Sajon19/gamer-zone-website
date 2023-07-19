@@ -104,81 +104,87 @@ body {
   /* BANNER SECTION END */
   
 
+  
+/* ONLINE GAME SECTION START */
 
-
-/* FOOTER SECTION START */
-.fourth_section {
+.Online_Games {
     width: 100%;
     height: 500px;
+  }
+  .Online_Games .text {
     text-align: center;
-    background-color: #030428;
-    color: #fff;
   }
-
-  .logo {
-    float: left;
-    padding: 0 0 0 100px;
+  .Online_Games .text h2 {
+    font-size: 35px;
+    font-weight: 700;
   }
-  .text{
-display: inline-flex;
-
-  }
-
-.footer h1 {
-    
-    font-size: 28px;
-    color: #fffafa;
-    margin: 20px 0 0 -10px;
-  }
-  .footer h1 span {
+  .Online_Games .text span {
     color: #ff42a5;
   }
-
-
-.footer .logo_img {
-    width: 55px;
-    height: 25px;
-    padding: 25px 20px 0 0;
+  .Online_Games .text p {
+    font-size: 13px;
+    color: #534c64;
+    margin: -15px 0 0 0;
   }
-  footer li {
-    list-style: none;
-    margin-right: 50px;
+  .Online_Games .images {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0 0 0;
   }
-
-  .ul{
-    display: inline-flex;
-    justify-content:center;
-    color: #FFF;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  .Online_Games .images .img1,
+  .img2,
+  .img3,
+  .img4 {
+    float: left;
+    padding: 0 20px 0 0;
+  }
+  .Online_Games .images .img1,
+  .img2,
+  .img3,
+  .img4,
+  img {
+    width: 240px;
+    height: 288px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+  }
+  .Online_Games .images .img1 img:hover {
+    border: 2px solid #ff42a5;
+  }
+  .Online_Games .images .img2 img:hover {
+    border: 2px solid #ff42a5;
+  }
+  .Online_Games .images .img3 img:hover {
+    border: 2px solid #ff42a5;
+  }
+  .Online_Games .images .img4 img:hover {
+    border: 2px solid #ff42a5;
     
-}
-.second_ul{
+  }
+  .Online_Games .images .img1,
+  .img2,
+  .img3,
+  .img4,
+  p {
+    font-size: 16px;
+    color: #534c64;
+  }
   
-    display: inline-flex;
+  /* ONLINE GAME SECTION END */
 
-gap:5px;
-color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-family: Work Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
 
-  .fourth_section .text {
-    padding-top: 70px;
-  }
-  .fourth_section h2 {
-    font-size: 32px;
-    font-weight: bold;
-  }
-  .fourth_section h6 {
-    color: gray;
-  }
-  
-  
-  /* FOOTER SECTION END */
+/* responsive styles  */
+/* mobile devices */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .Online_Games .images{
+        flex-direction: column;
+        padding:70px;
+
+    }
+    .text{
+        padding: 15px;
+    }
+}
