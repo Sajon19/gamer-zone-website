@@ -55,6 +55,55 @@ body {
   
   /* NAVBAR SECTION END */
 
+  
+/* BANNER SECTION START */
+.banner {
+    width: 100%;
+    height: 600px;
+  }
+  .banner .banner_text,
+  .banner_img {
+    float: left;
+  }
+  .banner .banner_text {
+    padding: 50px 0 0 180px;
+  }
+  .banner .banner_text h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  .banner .banner_text h3 {
+    font-size: 57px;
+    margin: -25px 0 20px 0;
+    color: #ff42a5;
+  }
+  .banner .banner_text .non_button {
+    display: block;
+    text-decoration: none;
+    color: #534c64;
+    padding: 0 0 10px 0;
+  }
+  .banner .banner_text .button {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: #ff42a5;
+    color: #fff;
+    border-radius: 30px;
+    margin-right: 10px;
+  }
+  .banner .banner_text .with_button {
+    margin-top: 20px;
+  }
+  .banner .banner_img img {
+    width: 525px;
+    height: 550px;
+    padding: 0 0 0 190px;
+  }
+  
+  /* BANNER SECTION END */
+  
+
 
 
 /* FOOTER SECTION START */
@@ -68,10 +117,15 @@ body {
 
   .logo {
     float: left;
-    padding: 0 0 0 230px;
+    padding: 0 0 0 100px;
+  }
+  .text{
+display: inline-flex;
+
   }
 
 .footer h1 {
+    
     font-size: 28px;
     color: #fffafa;
     margin: 20px 0 0 -10px;
@@ -92,8 +146,13 @@ body {
   }
 
   .ul{
-    display: flex;
+    display: inline-flex;
     justify-content:center;
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
     
 }
 .second_ul{
